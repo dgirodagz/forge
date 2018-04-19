@@ -1,0 +1,944 @@
+<b> </b>
+<style>
+    body {
+        font-family: Arial;
+    }
+    
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+    
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .tab button:hover {
+        background-color: #ddd;
+    }
+    
+    .tab button.active {
+        background-color: #ccc;
+    }
+    
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+        font-size: 13px;
+    }
+</style>
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'id2')" id="defaultOpen">BETA - dgirod+test</button>
+    <button class="tablinks" onclick="openTab(event, 'id2')" id="defaultOpen">BETA - dgirod+test</button>
+    <button class="tablinks" onclick="openTab(event, 'id3')" id="defaultOpen">UAT - dgirod+test</button>
+    <button class="tablinks" onclick="openTab(event, 'id4')" id="defaultOpen">APP - dgirod+test1</button>
+    <button class="tablinks" onclick="openTab(event, 'id5')" id="defaultOpen">DEV - dgirod+az2test</button>
+</div>
+<div id="id1" class="tabcontent">
+    <h3>Account: <a href="https://app.agendize.com/sso/1.0/sso?email=dgirod%2Btest%40agendize.com&amp;ts=1524168185466&amp;mac=45c28aea15300885a6d04eaa2d641e23359bf69ae7cfae890e888a09f578ea6f" target="_blank">dgirod+test@agendize.com</a></h3>SSO Token: df4e3967abbba98acb27eccc3b4f8418fce4432052c1ed4281aacc487ac16bd9
+    <br>API Key: 66f194d0f03252b5c5291615d5cb35a99ed0d47e
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Company Name</th>
+            <th>Mini Site</th>
+        </tr>
+        <TR>
+            <TD>Agendize apt request</TD>
+            <TD><a href="https://app.agendize.com/book/17829457" target="_blank">https://app.agendize.com/book/17829457</a></TD>
+        </TR>
+        <TR>
+            <TD>Agendize Conseil</TD>
+            <TD><a href="https://app.agendize.com/book/110171504" target="_blank">https://app.agendize.com/book/110171504</a></TD>
+        </TR>
+        <TR>
+            <TD>Agendize syncToken</TD>
+            <TD><a href="https://app.agendize.com/book/17562429" target="_blank">https://app.agendize.com/book/17562429</a></TD>
+        </TR>
+        <TR>
+            <TD>Agendize UK</TD>
+            <TD><a href="https://app.agendize.com/book/17432747" target="_blank">https://app.agendize.com/book/17432747</a></TD>
+        </TR>
+        <TR>
+            <TD>Agendize UKK</TD>
+            <TD><a href="https://app.agendize.com/book/29488281" target="_blank">https://app.agendize.com/book/29488281</a></TD>
+        </TR>
+        <TR>
+            <TD>Apt Request Inc</TD>
+            <TD><a href="https://app.agendize.com/book/17115742" target="_blank">https://app.agendize.com/book/17115742</a></TD>
+        </TR>
+        <TR>
+            <TD>Around the World Inc</TD>
+            <TD><a href="https://app.agendize.com/book/16808062" target="_blank">https://app.agendize.com/book/16808062</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Hotel</TD>
+            <TD><a href="https://app.agendize.com/book/18733808" target="_blank">https://app.agendize.com/book/18733808</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Massage Therapy</TD>
+            <TD><a href="https://app.agendize.com/book/16480016" target="_blank">https://app.agendize.com/book/16480016</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Restaurant</TD>
+            <TD><a href="https://app.agendize.com/book/17273589" target="_blank">https://app.agendize.com/book/17273589</a></TD>
+        </TR>
+        <TR>
+            <TD>myHotel</TD>
+            <TD><a href="https://app.agendize.com/book/16596203" target="_blank">https://app.agendize.com/book/16596203</a></TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Book A Massage FR</TD>
+            <TD><img id="scheduling-16480016" src="//app.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(16480016)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'app.agendize.com',
+                        button: '110579950',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://app.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Register to Yoga</TD>
+            <TD><img id="scheduling-16480644" src="//app.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(16480644)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'app.agendize.com',
+                        button: '110866346',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://app.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Book a Hotel Room</TD>
+            <TD><img id="scheduling-18733808" src="//app.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(18733808)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'app.agendize.com',
+                        button: '110866358',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://app.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Request your Apt</TD>
+            <TD><img id="scheduling-17115742" src="//app.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(17115742)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'app.agendize.com',
+                        button: '110876886',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://app.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Around The World</TD>
+            <TD><img id="scheduling-16808062" src="//app.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(16808062)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'app.agendize.com',
+                        button: '113056107',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://app.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Book a Massage EN</TD>
+            <TD><img id="scheduling-16480016" src="//app.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(16480016)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'app.agendize.com',
+                        button: '113215887',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://app.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>CtC JP</TD>
+            <TD><img src="//app.agendize.com/web/img/call_en.gif" onclick="showAZDB('111714077')" style="cursor:pointer;" id="az_111714077" />
+                <script id="azscript" type="text/javascript" src="//app.agendize.com/web/tool2.js?id=111714077"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Call Us!</TD>
+            <TD><img src="//app.agendize.com/web/img/call_en.gif" onclick="showAZDB('110616201')" style="cursor:pointer;" id="az_110616201" />
+                <script id="azscript" type="text/javascript" src="//app.agendize.com/web/tool2.js?id=110616201"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Chat with us #1</TD>
+            <TD>
+                <a href="//app.agendize.com/web/tool.jsp?id=110814251" target="_blank"><img src="https://app.agendize.com/web/img/chat_en.gif" style="cursor : pointer; border: 0" /></a>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Chat #2</TD>
+            <TD>
+                <a href="//app.agendize.com/web/tool.jsp?id=111146365" target="_blank"><img src="https://app.agendize.com/web/img/chat_en.gif" style="cursor : pointer; border: 0" /></a>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Contact</TD>
+            <TD><img src="//app.agendize.com/web/img/form_en.gif" onclick="showAZDB('111123150')" style="cursor:pointer;" id="az_111123150" />
+                <script id="azscript" type="text/javascript" src="//app.agendize.com/web/tool2.js?id=111123150"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>CtC form</TD>
+            <TD><img src="//app.agendize.com/web/img/form_en.gif" onclick="showAZDB('111313366')" style="cursor:pointer;" id="az_111313366" />
+                <script id="azscript" type="text/javascript" src="//app.agendize.com/web/tool2.js?id=111313366"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>test form</TD>
+            <TD><img src="//app.agendize.com/web/img/form_en.gif" onclick="showAZDB('112031217')" style="cursor:pointer;" id="az_112031217" />
+                <script id="azscript" type="text/javascript" src="//app.agendize.com/web/tool2.js?id=112031217"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Chat Form 2</TD>
+            <TD><img src="//app.agendize.com/web/img/form_en.gif" onclick="showAZDB('113789452')" style="cursor:pointer;" id="az_113789452" />
+                <script id="azscript" type="text/javascript" src="//app.agendize.com/web/tool2.js?id=113789452"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Chat Form 1</TD>
+            <TD><img src="//app.agendize.com/web/img/form_en.gif" onclick="showAZDB('113789450')" style="cursor:pointer;" id="az_113789450" />
+                <script id="azscript" type="text/javascript" src="//app.agendize.com/web/tool2.js?id=113789450"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Email Marketing Opt-in</TD>
+            <TD><img src="//app.agendize.com/web/img/form_en.gif" onclick="showAZDB('110837567')" style="cursor:pointer;" id="az_110837567" />
+                <script id="azscript" type="text/javascript" src="//app.agendize.com/web/tool2.js?id=110837567"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+</div>
+<div id="id2" class="tabcontent">
+    <h3>Account: <a href="https://beta.agendize.com/sso/1.0/sso?email=dgirod%2Btest%40agendize.com&amp;ts=1524168186100&amp;mac=f2b0dfa2259821bc6adae2e77ac717ea8c8d9762d52b59cf4ef2986c7b01f1c9" target="_blank">dgirod+test@agendize.com</a></h3>SSO Token: df4e3967abbba98acb27eccc3b4f8418fce4432052c1ed4281aacc487ac16bd9
+    <br>API Key: 66f194d0f03252b5c5291615d5cb35a99ed0d47e
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Company Name</th>
+            <th>Mini Site</th>
+        </tr>
+        <TR>
+            <TD>Agendize</TD>
+            <TD><a href="https://beta.agendize.com/book/17432747" target="_blank">https://beta.agendize.com/book/17432747</a></TD>
+        </TR>
+        <TR>
+            <TD>Agendize</TD>
+            <TD><a href="https://beta.agendize.com/book/17562429" target="_blank">https://beta.agendize.com/book/17562429</a></TD>
+        </TR>
+        <TR>
+            <TD>Agendize</TD>
+            <TD><a href="https://beta.agendize.com/book/17829457" target="_blank">https://beta.agendize.com/book/17829457</a></TD>
+        </TR>
+        <TR>
+            <TD>Agendize UKK</TD>
+            <TD><a href="https://beta.agendize.com/book/29488281" target="_blank">https://beta.agendize.com/book/29488281</a></TD>
+        </TR>
+        <TR>
+            <TD>Apt Request Inc</TD>
+            <TD><a href="https://beta.agendize.com/book/17115742" target="_blank">https://beta.agendize.com/book/17115742</a></TD>
+        </TR>
+        <TR>
+            <TD>Around the World Inc</TD>
+            <TD><a href="https://beta.agendize.com/book/16808062" target="_blank">https://beta.agendize.com/book/16808062</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Hotel</TD>
+            <TD><a href="https://beta.agendize.com/book/18733808" target="_blank">https://beta.agendize.com/book/18733808</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Massage Therapy</TD>
+            <TD><a href="https://beta.agendize.com/book/16480016" target="_blank">https://beta.agendize.com/book/16480016</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Restaurant</TD>
+            <TD><a href="https://beta.agendize.com/book/17273589" target="_blank">https://beta.agendize.com/book/17273589</a></TD>
+        </TR>
+        <TR>
+            <TD>myHotel</TD>
+            <TD><a href="https://beta.agendize.com/book/16596203" target="_blank">https://beta.agendize.com/book/16596203</a></TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Book A Massage FR</TD>
+            <TD><img id="scheduling-17829457" src="//beta.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(17829457)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'beta.agendize.com',
+                        button: '110579950',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://beta.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Register to Yoga</TD>
+            <TD><img id="scheduling-16480644" src="//beta.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(16480644)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'beta.agendize.com',
+                        button: '110866346',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://beta.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Book a Hotel Room</TD>
+            <TD><img id="scheduling-18733808" src="//beta.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(18733808)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'beta.agendize.com',
+                        button: '110866358',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://beta.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Request your Apt</TD>
+            <TD><img id="scheduling-17115742" src="//beta.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(17115742)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'beta.agendize.com',
+                        button: '110876886',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://beta.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Around The World</TD>
+            <TD><img id="scheduling-16808062" src="//beta.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(16808062)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'beta.agendize.com',
+                        button: '113056107',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://beta.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Book a Massage EN</TD>
+            <TD><img id="scheduling-16480016" src="//beta.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(16480016)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'beta.agendize.com',
+                        button: '113215887',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://beta.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>CtC JP</TD>
+            <TD><img src="//beta.agendize.com/web/img/call_en.gif" onclick="showAZDB('111714077')" style="cursor:pointer;" id="az_111714077" />
+                <script id="azscript" type="text/javascript" src="//beta.agendize.com/web/tool2.js?id=111714077"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Call Us!</TD>
+            <TD><img src="//beta.agendize.com/web/img/call_en.gif" onclick="showAZDB('110616201')" style="cursor:pointer;" id="az_110616201" />
+                <script id="azscript" type="text/javascript" src="//beta.agendize.com/web/tool2.js?id=110616201"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Chat with us</TD>
+            <TD>
+                <a href="//beta.agendize.com/web/tool.jsp?id=110814251" target="_blank"><img src="https://beta.agendize.com/web/img/chat_en.gif" style="cursor : pointer; border: 0" /></a>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Chat #2</TD>
+            <TD>
+                <a href="//beta.agendize.com/web/tool.jsp?id=111146365" target="_blank"><img src="https://beta.agendize.com/web/img/chat_en.gif" style="cursor : pointer; border: 0" /></a>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Contact</TD>
+            <TD><img src="//beta.agendize.com/web/img/form_en.gif" onclick="showAZDB('111123150')" style="cursor:pointer;" id="az_111123150" />
+                <script id="azscript" type="text/javascript" src="//beta.agendize.com/web/tool2.js?id=111123150"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>CtC form</TD>
+            <TD><img src="//beta.agendize.com/web/img/form_en.gif" onclick="showAZDB('111313366')" style="cursor:pointer;" id="az_111313366" />
+                <script id="azscript" type="text/javascript" src="//beta.agendize.com/web/tool2.js?id=111313366"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>test form</TD>
+            <TD><img src="//beta.agendize.com/web/img/form_en.gif" onclick="showAZDB('112031217')" style="cursor:pointer;" id="az_112031217" />
+                <script id="azscript" type="text/javascript" src="//beta.agendize.com/web/tool2.js?id=112031217"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Email Marketing Opt-in</TD>
+            <TD><img src="//beta.agendize.com/web/img/form_en.gif" onclick="showAZDB('110837567')" style="cursor:pointer;" id="az_110837567" />
+                <script id="azscript" type="text/javascript" src="//beta.agendize.com/web/tool2.js?id=110837567"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+</div>
+<div id="id3" class="tabcontent">
+    <h3>Account: <a href="https://uat.agendize.com/sso/1.0/sso?email=dgirod%2Btest%40agendize.com&amp;ts=1524168187172&amp;mac=b7dd5fc588c30b8287ee95bd951c2ddf3e95f703c040ed230299f8daa831284c" target="_blank">dgirod+test@agendize.com</a></h3>SSO Token: df4e3967abbba98acb27eccc3b4f8418fce4432052c1ed4281aacc487ac16bd9
+    <br>API Key: 66f194d0f03252b5c5291615d5cb35a99ed0d47e
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Company Name</th>
+            <th>Mini Site</th>
+        </tr>
+        <TR>
+            <TD>Agendize</TD>
+            <TD><a href="https://uat.agendize.com/book/17432747" target="_blank">https://uat.agendize.com/book/17432747</a></TD>
+        </TR>
+        <TR>
+            <TD>Agendize</TD>
+            <TD><a href="https://uat.agendize.com/book/17562429" target="_blank">https://uat.agendize.com/book/17562429</a></TD>
+        </TR>
+        <TR>
+            <TD>Agendize</TD>
+            <TD><a href="https://uat.agendize.com/book/17829457" target="_blank">https://uat.agendize.com/book/17829457</a></TD>
+        </TR>
+        <TR>
+            <TD>Agendize UKK</TD>
+            <TD><a href="https://uat.agendize.com/book/29488281" target="_blank">https://uat.agendize.com/book/29488281</a></TD>
+        </TR>
+        <TR>
+            <TD>Apt Request Inc</TD>
+            <TD><a href="https://uat.agendize.com/book/17115742" target="_blank">https://uat.agendize.com/book/17115742</a></TD>
+        </TR>
+        <TR>
+            <TD>Around the World Inc</TD>
+            <TD><a href="https://uat.agendize.com/book/16808062" target="_blank">https://uat.agendize.com/book/16808062</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Hotel</TD>
+            <TD><a href="https://uat.agendize.com/book/18733808" target="_blank">https://uat.agendize.com/book/18733808</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Massage Therapy</TD>
+            <TD><a href="https://uat.agendize.com/book/16480016" target="_blank">https://uat.agendize.com/book/16480016</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Restaurant</TD>
+            <TD><a href="https://uat.agendize.com/book/17273589" target="_blank">https://uat.agendize.com/book/17273589</a></TD>
+        </TR>
+        <TR>
+            <TD>myHotel</TD>
+            <TD><a href="https://uat.agendize.com/book/16596203" target="_blank">https://uat.agendize.com/book/16596203</a></TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Book A Massage FR</TD>
+            <TD><img id="scheduling-17829457" src="//uat.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(17829457)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'uat.agendize.com',
+                        button: '110579950',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://uat.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Register to Yoga</TD>
+            <TD><img id="scheduling-16480644" src="//uat.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(16480644)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'uat.agendize.com',
+                        button: '110866346',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://uat.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Book a Hotel Room</TD>
+            <TD><img id="scheduling-18733808" src="//uat.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(18733808)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'uat.agendize.com',
+                        button: '110866358',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://uat.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Request your Apt</TD>
+            <TD><img id="scheduling-17115742" src="//uat.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(17115742)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'uat.agendize.com',
+                        button: '110876886',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://uat.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Around The World</TD>
+            <TD><img id="scheduling-16808062" src="//uat.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(16808062)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'uat.agendize.com',
+                        button: '113056107',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://uat.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Book a Massage EN</TD>
+            <TD><img id="scheduling-16480016" src="//uat.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(16480016)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'uat.agendize.com',
+                        button: '113215887',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://uat.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>CtC JP</TD>
+            <TD><img src="//uat.agendize.com/web/img/call_en.gif" onclick="showAZDB('111714077')" style="cursor:pointer;" id="az_111714077" />
+                <script id="azscript" type="text/javascript" src="//uat.agendize.com/web/tool2.js?id=111714077"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Call Us!</TD>
+            <TD><img src="//uat.agendize.com/web/img/call_en.gif" onclick="showAZDB('110616201')" style="cursor:pointer;" id="az_110616201" />
+                <script id="azscript" type="text/javascript" src="//uat.agendize.com/web/tool2.js?id=110616201"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Chat with us</TD>
+            <TD>
+                <a href="//uat.agendize.com/web/tool.jsp?id=110814251" target="_blank"><img src="https://uat.agendize.com/web/img/chat_en.gif" style="cursor : pointer; border: 0" /></a>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Chat #2</TD>
+            <TD>
+                <a href="//uat.agendize.com/web/tool.jsp?id=111146365" target="_blank"><img src="https://uat.agendize.com/web/img/chat_en.gif" style="cursor : pointer; border: 0" /></a>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Contact</TD>
+            <TD><img src="//uat.agendize.com/web/img/form_en.gif" onclick="showAZDB('111123150')" style="cursor:pointer;" id="az_111123150" />
+                <script id="azscript" type="text/javascript" src="//uat.agendize.com/web/tool2.js?id=111123150"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>CtC form</TD>
+            <TD><img src="//uat.agendize.com/web/img/form_en.gif" onclick="showAZDB('111313366')" style="cursor:pointer;" id="az_111313366" />
+                <script id="azscript" type="text/javascript" src="//uat.agendize.com/web/tool2.js?id=111313366"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>test form</TD>
+            <TD><img src="//uat.agendize.com/web/img/form_en.gif" onclick="showAZDB('112031217')" style="cursor:pointer;" id="az_112031217" />
+                <script id="azscript" type="text/javascript" src="//uat.agendize.com/web/tool2.js?id=112031217"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Email Marketing Opt-in</TD>
+            <TD><img src="//uat.agendize.com/web/img/form_en.gif" onclick="showAZDB('110837567')" style="cursor:pointer;" id="az_110837567" />
+                <script id="azscript" type="text/javascript" src="//uat.agendize.com/web/tool2.js?id=110837567"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+</div>
+<div id="id4" class="tabcontent">
+    <h3>Account: <a href="https://app.agendize.com/sso/1.0/sso?email=dgirod%2Btest1%40agendize.com&amp;ts=1524168188336&amp;mac=4ffec6bf8803ba35953597ecd6ae9dc43faee16165f979180ec865def6f87be5" target="_blank">dgirod+test1@agendize.com</a></h3>SSO Token: 81a75923a3a5cae7636a5fb315ce712fe606d9bf5c7b264f38d963d5bde5a663
+    <br>API Key: f12b6ebcf15c611f63474cd789f8dab55abb2034
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Company Name</th>
+            <th>Mini Site</th>
+        </tr>
+        <TR>
+            <TD>agz</TD>
+            <TD><a href="https://app.agendize.com/book/110173171" target="_blank">https://app.agendize.com/book/110173171</a></TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+    </table>
+    <br>
+    <br>
+</div>
+<div id="id5" class="tabcontent">
+    <h3>Account: <a href="https://dev.agendize.com/sso/1.0/sso?email=dgirod%2Baz2test%40agendize.com&amp;ts=1524168188732&amp;mac=6cf38e7b6066a1ac4aad0cb44b730f441f1737838ca44f8be1acbdecc9dbfc39" target="_blank">dgirod+az2test@agendize.com</a></h3>SSO Token: 33bcf3bb88f1bc7c1829cddac74ed5b921e8b9c8161182d22a5c2c0ab9b023db
+    <br>API Key: 4662ba7932dca2fcb4177316b38c62b5c148b30f
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Company Name</th>
+            <th>Mini Site</th>
+        </tr>
+        <TR>
+            <TD>Apt Request Inc</TD>
+            <TD><a href="https://dev.agendize.com/book/5353894" target="_blank">https://dev.agendize.com/book/5353894</a></TD>
+        </TR>
+        <TR>
+            <TD>Around the World Inc </TD>
+            <TD><a href="https://dev.agendize.com/book/5327909" target="_blank">https://dev.agendize.com/book/5327909</a></TD>
+        </TR>
+        <TR>
+            <TD>Company test Youness</TD>
+            <TD><a href="https://dev.agendize.com/book/5380417" target="_blank">https://dev.agendize.com/book/5380417</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Financial</TD>
+            <TD><a href="https://dev.agendize.com/book/5328932" target="_blank">https://dev.agendize.com/book/5328932</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Hotel</TD>
+            <TD><a href="https://dev.agendize.com/book/5374579" target="_blank">https://dev.agendize.com/book/5374579</a></TD>
+        </TR>
+        <TR>
+            <TD>Everest Massage Therapy</TD>
+            <TD><a href="https://dev.agendize.com/book/5328922" target="_blank">https://dev.agendize.com/book/5328922</a></TD>
+        </TR>
+        <TR>
+            <TD>my company</TD>
+            <TD><a href="https://dev.agendize.com/book/5370164" target="_blank">https://dev.agendize.com/book/5370164</a></TD>
+        </TR>
+        <TR>
+            <TD>test cpy</TD>
+            <TD><a href="https://dev.agendize.com/book/5371465" target="_blank">https://dev.agendize.com/book/5371465</a></TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Everest Massage Therapy</TD>
+            <TD><img id="scheduling-5328922" src="//dev.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(5328922)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'dev.agendize.com',
+                        button: '7966574',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://dev.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Everest Massage ES</TD>
+            <TD><img id="scheduling-5328922" src="//dev.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(5328922)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'dev.agendize.com',
+                        button: '8476258',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://dev.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Everest Hotel</TD>
+            <TD><img id="scheduling-5327915" src="//dev.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(5327915)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'dev.agendize.com',
+                        button: '8505221',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://dev.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Apt Request Inc</TD>
+            <TD><img id="scheduling-5353894" src="//dev.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(5353894)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'dev.agendize.com',
+                        button: '8505359',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://dev.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>FB</TD>
+            <TD><img id="scheduling-5328922" src="//dev.agendize.com/web/img/scheduling_en.gif" onclick="openScheduling(5328922)" style="cursor : pointer; border: 0" />
+                <script type="text/javascript">
+                    var scheduling = {
+                        server: 'dev.agendize.com',
+                        button: '8507766',
+                        lang: 'en'
+                    };
+                </script>
+                <script type="text/javascript" src="https://dev.agendize.com/web/scheduling.js"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>test</TD>
+            <TD><img src="//dev.agendize.com/web/img/call_en.gif" onclick="showAZDB('8509323')" style="cursor:pointer;" id="az_8509323" />
+                <script id="azscript" type="text/javascript" src="//dev.agendize.com/web/tool2.js?id=8509323"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Click to Call</TD>
+            <TD><img src="//dev.agendize.com/web/img/call_en.gif" onclick="showAZDB('8507903')" style="cursor:pointer;" id="az_8507903" />
+                <script id="azscript" type="text/javascript" src="//dev.agendize.com/web/tool2.js?id=8507903"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>Chat!</TD>
+            <TD>
+                <a href="//dev.agendize.com/web/tool.jsp?id=8476225" target="_blank"><img src="https://dev.agendize.com/web/img/chat_en.gif" style="cursor : pointer; border: 0" /></a>
+            </TD>
+        </TR>
+        <TR>
+            <TD>chat2</TD>
+            <TD>
+                <a href="//dev.agendize.com/web/tool.jsp?id=8512186" target="_blank"><img src="https://dev.agendize.com/web/img/chat_en.gif" style="cursor : pointer; border: 0" /></a>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Button Name</th>
+            <th>Button EN</th>
+        </tr>
+        <TR>
+            <TD>contact</TD>
+            <TD><img src="//dev.agendize.com/web/img/form_en.gif" onclick="showAZDB('8012465')" style="cursor:pointer;" id="az_8012465" />
+                <script id="azscript" type="text/javascript" src="//dev.agendize.com/web/tool2.js?id=8012465"></script>
+            </TD>
+        </TR>
+        <TR>
+            <TD>Test</TD>
+            <TD><img src="//dev.agendize.com/web/img/form_en.gif" onclick="showAZDB('8522304')" style="cursor:pointer;" id="az_8522304" />
+                <script id="azscript" type="text/javascript" src="//dev.agendize.com/web/tool2.js?id=8522304"></script>
+            </TD>
+        </TR>
+    </table>
+    <br>
+    <br>
+</div>
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+    document.getElementById("defaultOpen").click();
+</script>
